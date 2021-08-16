@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CisonBoxView", "CisonSampleBoxView\CisonBoxView.csproj", "{C097AF17-BCB9-49B4-AEE3-F230397C701C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{2B29307B-F1A2-478B-B72B-1AD0D2CAC948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsSample", "WindowsFormsSample\WindowsFormsSample.csproj", "{AF5A87CE-7836-4B81-821B-DAF773D3D395}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{C097AF17-BCB9-49B4-AEE3-F230397C701C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C097AF17-BCB9-49B4-AEE3-F230397C701C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C097AF17-BCB9-49B4-AEE3-F230397C701C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF5A87CE-7836-4B81-821B-DAF773D3D395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5A87CE-7836-4B81-821B-DAF773D3D395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5A87CE-7836-4B81-821B-DAF773D3D395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5A87CE-7836-4B81-821B-DAF773D3D395}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF5A87CE-7836-4B81-821B-DAF773D3D395} = {2B29307B-F1A2-478B-B72B-1AD0D2CAC948}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49AA995E-9E20-4F51-997A-335DD81F7A9B}

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1 {
+namespace WindowsFormsSample {
     static class Program {
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
