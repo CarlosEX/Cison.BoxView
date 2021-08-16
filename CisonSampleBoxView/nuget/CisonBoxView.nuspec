@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>CisonBoxView</id>
+    <version>1.0.1</version>
+    <title>Cison BoxView</title>
+    <authors>Carlos Antonio</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>http://carlosantoniocison.editorx.io/portifolio/</projectUrl>
+    <description>MensageBox personalizada</description>
+    <releaseNotes>Versão de lançamento.</releaseNotes>
+    <copyright>$copyright - Carlos Antonio 2021</copyright>
+    <tags>Cison CisonBoxView</tags>
+  </metadata>
+</package>
