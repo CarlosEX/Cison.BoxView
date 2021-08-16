@@ -4,6 +4,7 @@ using System.Windows.Forms;
 
 namespace Cison.BoxView {
     internal sealed class BoxView : Form {
+        
         private Button buttonClose;
         private Button buttonMessageText;
         private PictureBox pictureBoxAlert;
@@ -15,10 +16,13 @@ namespace Cison.BoxView {
 
         public BoxView() {
             InitializeComponent();
+            LoadEvents();
+        }
+
+        private void LoadEvents() {
             this.buttonClose.Click += Form_MouseClick;
             this.KeyPress += FormBoxAlert_KeyPress;
             this.MouseClick += Form_MouseClick;
-
         }
 
         public void Show(
@@ -65,13 +69,13 @@ namespace Cison.BoxView {
         private void ApplyTheme(ThemeBox themeBox) {
             switch (themeBox) {
                 case ThemeBox.Light:
-                    FormThemLight();
+                    FormThemeLight();
                     break;
                 case ThemeBox.Dark:
-                    FormThemDark();
+                    FormThemeDark();
                     break;
                 default:
-                    FormThemLight();
+                    FormThemeLight();
                     break;
             }
         }
@@ -93,7 +97,7 @@ namespace Cison.BoxView {
             }
         }
 
-        private void FormThemDark() {
+        private void FormThemeDark() {
             try {
                 this.BackColor = Color.Black;
                 this.buttonMessageText.ForeColor = Color.White;
@@ -107,7 +111,7 @@ namespace Cison.BoxView {
                 throw;
             }
         }
-        private void FormThemLight() {
+        private void FormThemeLight() {
             try {
                 this.BackColor = Color.White;
                 this.buttonMessageText.ForeColor = Color.Black;

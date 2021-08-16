@@ -9,7 +9,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Cison.BoxView</RootNamespace>
     <AssemblyName>CisonBoxView</AssemblyName>
+    <Version>1.0.3</Version>
+    <Authors>Carlos Antonio</Authors>
+    <Company>Cison</Company>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <PackageProjectUrl>https://github.com/CarlosEX/Cison.BoxView</PackageProjectUrl>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
